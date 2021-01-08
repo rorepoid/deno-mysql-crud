@@ -5,3 +5,5 @@ CREATE TABLE users (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
+
+INSERT INTO users(name, country) VALUES ('Rayan Ray', 'USA'), ('Joe McMillian', 'USA');
